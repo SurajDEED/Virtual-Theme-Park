@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /* background-color: #0c111b; */
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: #0c111b;
+    align-items: center;
+    top: 0;
+    left: 0;
+
+    z-index: 2;
+    padding-top: 3%;
+    padding-bottom: 36px;
+    padding-right: 3%;
+    display: flex;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.nav-logo {
+    height: 89px;
+    margin-left: 24px;
+
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: azure;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-weight: 300;
+
+
+}
+
+.right-side {
+    display: block;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.search {
+    border: none;
+    background: transparent;
+    color: #fff;
+    height: 30px;
+    width: 250px;
+    transition: .5s;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-bottom: 1px solid gainsboro;
+    font-weight: 700;
+    outline: none;
+
+}
+
+.search:focus {
+    width: 400px;
+    border-color: #1f80e0;
+}
+
+.btn-signin {
+    border: 1px solid #1f80e0;
+    border-radius: 10px;
+    background: transparent;
+    color: #1f80e0;
+    height: 34px;
+    width: 100px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.btn-signin:hover {
+    background-color: #1f80e0;
+    color: whitesmoke;
+}
+
+.login {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #1f80e0;
+
+}
+
+.login:hover {
+    color: whitesmoke;
+}
+
+.help {
+    font-family: "Inter", sans-serif;
+    padding-left: 5px;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 100px;
+}
+
+.log {
+    padding-left: 20px;
+
+}
+
+.nxt {
+    width: 17px;
+    height: 21px;
+    margin-top: 2px;
+}
+
+.conti {
+    margin: 133px;
+    background-color: white;
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    /* width: 517px;
+    height: 696px; */
+    width: 50%;
+    font-family: "Inter", sans-serif;
+    padding: 3%;
+}
+
+textarea
+{
+    resize: none;
+}
+
+.need
+{
+    
+}
+
+.para
+{
+    padding: 25px 0px;
+    /* padding-bottom: 10px; */
+}
+span{
+    color: red;
+}
+.tcs
+{
+    margin-top: 10px;
+    /* font-size: 3.4em; */
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #1f80e0;
+    border-radius: 5px;
+    /* height: 3.4em; */
+    width: 100%;
+    padding: 4px 0px 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.drop
+{
+    margin-top: 10px;
+    /* font-size: 3.4em; */
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #1f80e0;
+    border-radius: 5px;
+    /* height: 3.4em; */
+    width: 100%;
+    padding: 4px 0px 5px;
+    margin-bottom: 10px;
+    outline: none;
+
+}
+.wipro
+{
+    margin-top: 10px;
+
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #c82b43;
+    border-radius: 5px;
+    width: 100%;
+    padding: 4px 0px 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.care
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.files
+{
+    display: none;
+    
+}
+
+.info
+{
+    color: #818484;
+}
+
+.sub
+{
+    margin-top: 10px;
+    border: 2px solid #1f80e0;
+    color: white;
+    margin-left: 50px;
+    background-color: #1f80e0;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.att
+{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.plus
+{
+    /* display: inline-block;
+    width: 100px;
+    height: 100px; */
+    color: #1f80e0;
+    font-size: 39px;
+}
+
+.atts
+{
+    color: #1f80e0;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.uu
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

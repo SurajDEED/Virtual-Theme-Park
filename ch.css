@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+.header {
+    color: #fff;
+    text-shadow:
+      0 0 7px rgb(29, 68, 194),
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(232, 36, 62),
+      0 0 82px rgb(232, 36, 62),
+      0 0 92px rgb(232, 36, 62),
+      0 0 102px rgb(3, 10, 8),
+      0 0 151px rgb(227, 98, 17);
+  }
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.common {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border: 2px solid whitesmoke;
+    transition: 3s;
+}
+
+.common:hover {
+    /* transition: 0.5s all ease-in-out; */
+    transform: scale(1.2, 1.2);
+
+}
+
+
+.games {
+    background-image: url("https://www.arenaslg.com/wp-content/uploads/2020/03/neon-gamer-illustration-flat-design_52683-14179-e1585670863350-626x445.jpg");
+    cursor: pointer;
+}
+
+.movies {
+    background-image: url("https://cdn2.momjunction.com/wp-content/uploads/2019/04/17-Best-Animal-Movies-For-Kids-To-Watch-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.songs {
+    background-image: url("https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

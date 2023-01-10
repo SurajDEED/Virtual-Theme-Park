@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1614292264554-7dca1d6466d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.header {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(38, 0, 255),
+      0 0 82px rgb(0, 0, 255),
+      0 0 92px rgb(0, 17, 255),
+      0 0 102px rgb(3, 10, 8),
+      0 0 151px #0fa;
+  }
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.common {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border: 2px solid whitesmoke;
+    transition: 3s;
+}
+
+.common:hover {
+    /* transition: 0.5s all ease-in-out; */
+    transform: scale(1.2, 1.2);
+
+}
+
+
+.games {
+    background-image: url("https://image.winudf.com/v2/image1/Y29tLmdpc21hcnQucmVhbGRydW0yZnJlZV9zY3JlZW5fMF8xNTg5ODI4MTY0XzA4OQ/screen-0.jpg?fakeurl=1&type=.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.movies {
+    background-image: url("https://store-images.s-microsoft.com/image/apps.17020.14108235367275677.7ed9a69d-cdf8-4064-b6db-ce73db8646f9.b17b928a-5cd9-475d-a796-bf16bf29bebc?mode=scale&q=90&h=270&w=270&background=%230078D7");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.songs {
+    background-image: url("https://www.youcubed.org/wp-content/uploads/2020/03/shutterstock_1140911045.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

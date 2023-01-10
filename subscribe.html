@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscribe Disney+</title>
+    <link rel="stylesheet" href="subscribe.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="logo.png" />
+    <script src="subscribe.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="nav-logo" src="logo.png" alt="logo" />
+
+      <ul class="nav-items">
+        <li class="help"><a href="">Help Desk</a></li>
+        <li class="log"><img class="nxt" src="nxt.png" alt="" /></li>
+        <li class="help"><a href="">Contact us</a></li>
+      </ul>
+
+      <div class="right-side">
+        <form action="hotlogin.html">
+          <button class="btn-signin">Subscribe</button>
+          <a class="login" href="hotlogin.html">Log in </a>
+        </form>
+      </div>
+    </nav>
+
+    <div class="conti">
+      <h3 class="need">Need more help</h3>
+      <p class="para">Please provide your information to help us contact you</p>
+      <form action="" id="feedback">
+        <label for="">Email/Phone <span>*</span> </label><br />
+        <input class="tcs" type="text" name="" id="col" onclick="t()" /> <br />
+
+        <label for="">What is this about? <span>*</span> </label><br />
+        <!-- <input class="tcs"  type="text" name="" id="" ><br> -->
+        <select class="drop" name="iss" id="drop" onclick="p()">
+          <option value="default">Please select a option</option>
+          <option value="">Account Related</option>
+          <option value="">Login Related</option>
+          <option value="">Seeking Information</option>
+          <option value="">Technical Related</option>
+          <option value="">Buffering & Quality related</option>
+          <option value="">Others</option>
+          <option value="">Subscription Related</option>
+        </select>
+        <br />
+
+        <label for="">Describe your issue<span>*</span> </label><br />
+        <textarea
+          class="tcs"
+          name=""
+          id="texts"
+          cols="30"
+          rows="10"
+          placeholder="Enter your text"
+          onclick="s()"
+        ></textarea
+        ><br />
+        <div class="care">
+          <!-- <button class="att" for="me" ><input type="file" class="files" id="me"> <span class="plus">+ <span class="atts">Attach File</span> </span></button> -->
+          <input type="file" name="" id="me" class="files" />
+          <label for="me" class="atts">+ Attach File</label>
+
+          <ul class="uu">
+            <li class="info">The file should be of type image, video, har.</li>
+            <li class="info">
+              Please ensure the images are focused on the issues and not blurry.
+            </li>
+            <li class="info">
+              You can add a maximum of 5 files of the issue. Please ensure the
+              total size of all the files is not above 20MB.
+            </li>
+          </ul>
+        </div>
+
+        <button id="checks" class="sub" onclick="formValidation()" >Check</button>
+
+        <!-- <button class="sub" onclick="formValidation()">Submit</button> -->
+      </form>
+    </div>
+  </body>
+</html>

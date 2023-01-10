@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #0c111b;
+    position: relative;
+}
+
+.logo {
+    width: 112px;
+    height: 115px;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+}
+h2 {
+    color: white;
+font-family: 'Roboto', sans-serif;
+margin-left: 611px;
+margin-top: 10px;
+font-size: 37px;
+
+}
+
+.num {
+    width: 187x;
+    margin-left: 611px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-bottom: 1px solid #1f80e0;
+    outline: none;
+    margin-top: 83px;
+    font-size: 32px;
+}
+
+.login
+{
+    margin-left: 630px;
+background-color: transparent;
+border: none;
+cursor: pointer;
+outline: none;
+color: white;
+padding-right: 20px;
+margin-top: 95px;
+border: 0.5px solid white;
+border-radius: 5px;
+height: 40px;
+width: 125px;
+padding-left: 15px;
+   
+}
+
+.reset
+{
+   margin-left: 10px;
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   outline: none;
+   color: white;
+   padding-right: 20px;
+   margin-top: 40px;
+   border: 0.5px solid white;
+   border-radius: 5px;
+   height: 40px;
+   width: 125px;
+   padding-left: 15px;
+}
+
+.login:hover
+{
+    background-color: #1f80e0;
+    border-color: #1f80e0;
+}
+
+.reset:hover
+{
+    background-color: #1f80e0;
+    border-color: #1f80e0;
+}
+
+footer {
+    margin-left: 58px;
+    height: 131px;
+    width: 1343px;
+    /* margin-bottom: 50px; */
+    margin-top: 132px;
+}
+
+.foot {
+    color: #909999;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 20px;
+
+}
+
+.footD {
+    color: #909999;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    /* align-items: left; */
+    width: 540px;
+}
+
+.connect {
+    padding-left: 340px;
+    color: #909999;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.plusApp {
+    padding-left: 693px;
+    color: #909999;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.footBut {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    left: 1137px;
+    bottom: 31px;
+}
+
+.googlepl {
+    width: 149px;
+    height: 72px;
+
+}
+
+.footBut2
+{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    left: 1285px;
+    bottom: 42px;
+
+}
+
+.apple
+{
+    width: 141px;
+    height: 48px;
+
+}
